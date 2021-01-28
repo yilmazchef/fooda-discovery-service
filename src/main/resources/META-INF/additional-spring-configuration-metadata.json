@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "eureka.password",
+      "type": "java.lang.String",
+      "description": "Spring security password."
+    }
+  ]
+}
