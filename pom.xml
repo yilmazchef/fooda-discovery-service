@@ -71,16 +71,16 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <executable>true</executable>
-                    <requiresUnpack>
-                        <dependency>
-                            <groupId>com.netflix.eureka</groupId>
-                            <artifactId>eureka-core</artifactId>
-                        </dependency>
-                        <dependency>
-                            <groupId>com.netflix.eureka</groupId>
-                            <artifactId>eureka-client</artifactId>
-                        </dependency>
-                    </requiresUnpack>
+<!--                    <requiresUnpack>-->
+<!--                        <dependency>-->
+<!--                            <groupId>com.netflix.eureka</groupId>-->
+<!--                            <artifactId>eureka-core</artifactId>-->
+<!--                        </dependency>-->
+<!--                        <dependency>-->
+<!--                            <groupId>com.netflix.eureka</groupId>-->
+<!--                            <artifactId>eureka-client</artifactId>-->
+<!--                        </dependency>-->
+<!--                    </requiresUnpack>-->
                 </configuration>
             </plugin>
         </plugins>
