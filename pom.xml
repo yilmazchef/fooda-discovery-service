@@ -19,6 +19,7 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <start-class>be.fooda.backend.discovery.FoodaDiscoveryApp</start-class>
     </properties>
 
     <dependencyManagement>
@@ -71,16 +72,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <executable>true</executable>
-<!--                    <requiresUnpack>-->
-<!--                        <dependency>-->
-<!--                            <groupId>com.netflix.eureka</groupId>-->
-<!--                            <artifactId>eureka-core</artifactId>-->
-<!--                        </dependency>-->
-<!--                        <dependency>-->
-<!--                            <groupId>com.netflix.eureka</groupId>-->
-<!--                            <artifactId>eureka-client</artifactId>-->
-<!--                        </dependency>-->
-<!--                    </requiresUnpack>-->
                 </configuration>
             </plugin>
         </plugins>
